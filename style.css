@@ -273,7 +273,7 @@ hr{
   border : none;
   border-radius: 23px;
   position : absolute;
-  top : 369px;
+  top : 295px;
   left : 25px;
   background-color : #3CD8E8;
   color : white;
@@ -327,7 +327,7 @@ hr{
   background-color: #95B226; 
   color : white;
   position : absolute;
-  top : 245px;
+  top : 185px;
   left : 15px;
 }
 .story-btn5{
@@ -338,7 +338,7 @@ hr{
   background-color: #95B226; 
   color : white;
   position : absolute;
-  top : 250px;
+  top : 185px;
   left : 15px;
 }
 .story-btn3{
@@ -349,7 +349,7 @@ hr{
   background-color: #5D58F0; 
   color : white;
   position : absolute;
-  top : 245px;
+  top : 185px;
   left : 15px;
 }
 .story-btn4{
@@ -360,7 +360,7 @@ hr{
   background-color: #95B226; 
   color : white;
   position : absolute;
-  top : 250px;
+  top : 185px;
   left : 15px;
 }
 .view-btn{
@@ -371,6 +371,42 @@ hr{
   border-radius: 13px;
   border : none;
 }
+.marquee{
+  font-size: 25px;
+}
+
+/* Style for footer */
+
+.footer{
+  height : 80vh;
+  background-color: #01ACFD;
+  display : grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.loggo{
+ width : 100%;
+}
+.foot-logo-name{
+  color : white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.foot-logo{
+  display : flex;
+  flex-direction: column;
+}
+.foot-logo-container{
+  display : flex;
+}
+.ulul>li{
+  color : white;
+}
+.keep{
+  color: white;
+  font-weight: bold;
+  font-size: 35;
+}
+
 
 
 
@@ -424,24 +460,16 @@ hr{
        .angel{
         display : none;
        }
-       .right1{
+      .standard{
+        display : none;
+      }
+       .marquee{
         display : none;
        }
-       .right-our{
-        width : 100%;
+       .footer{
+        grid-template-columns: repeat(1, 1fr);
        }
-       .right1{
-        width : 25%;
-       }
-       .right2{
-        width : 25%;
-       }
-       .right3{
-        width : 25%;
-       }
-       .right4{
-        width : 25%;
-       }
+
 
 }
 
